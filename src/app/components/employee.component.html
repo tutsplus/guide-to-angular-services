@@ -1,0 +1,8 @@
+<h3>Data from employee.service</h3>
+<ul>
+    <li *ngFor = "let role of roles">{{role.type}}</li>
+</ul>
+<button (click)="loadEmployeeDetails()">Load Employee Details</button>
+<ul>
+    <li *ngFor = "let employee of employeeDetails">{{employee.email}}</li>
+</ul>
